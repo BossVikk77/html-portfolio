@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My Resume</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <div id="header"></div>
+    <script>
+        // Load header.html into #header
+        fetch("header.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("header").innerHTML = data;
+            });
+    </script>
+    <h1>Moyinoluwa (Victor) Olayinka</h1>
+    <img src="Images/passport1.png" alt="Image of Moyinoluwa Olayinka">
+    <img src="Images/Image1.jpg" width="200" alt="Image of Moyinoluwa Olayinka">
+    <img src="Images/Image2.jpg" width="200" alt="Image of Moyinoluwa Olayinka">
+    <h2>Summary or Objective Statement</h2>
+    <p>Detail-oriented professional with experience in operations, data analysis, and customer service. Skilled in
+        reporting, compliance, and process coordination with strong analytical, organizational, and problem-solving
+        abilities. Seeking opportunities to apply these skills in roles that demand accuracy, efficiency, and teamwork
+        while contributing to organizational growth.</p>
+    <hr style="border: none; height: 3px; background-color: steelblue;">
+    <h2>Education</h2>
+    <ul>
+        <li>B.Sc. Applied Geophysics – University of Ilorin, Nigeria | 2015 – 2024</li>
+        <li>Google Advanced Data Analytics Certificate | 2024</li>
+        <li>Google Business Intelligence Certificate | 2024</li>
+        <li>DataCamp Professional Data Analyst | 2025</li>
+    </ul>
+    <hr style="border: none; height: 3px; background-color: steelblue;">
+    <h2>Work Experience</h2>
+    <h3>GHS Links Services – Port Harcourt</h3>
+    <h4>Data Analyst | Jul 2024 - Date</h4>
+    <ul>
+        <li>Built dashboards and reports using Power BI and Excel.</li>
+        <li>Conducted trend analysis to support decision-making.</li>
+        <li>Ensured data accuracy for compliance and reporting.</li>
+    </ul>
+    <h3><a href="accessbankplc.com">Access Bank Plc</a> – Port Harcourt</h3>
+    <h4>Assistant Head of Operations | Oct 2022 – Jul 2024</h4>
+    <ul>
+        <li>Managed daily branch operations including cash handling, transaction approvals, and customer service.</li>
+        <li>Oversaw vault and cash management, ensuring compliance with regulations.</li>
+        <li>Handled customer complaints and ensured service delivery met benchmarks.</li>
+        <li>Prepared reconciliations, proofs, and regulatory/internal reports.</li>
+    </ul>
+    <h3>Mack IV Consult – Port Harcourt</h3>
+    <h4>Facilitator | Apr 2022 – Oct 2022</h4>
+    <ul>
+        <li>Taught the quantitative sections of SAT, GRE, and GMAT exams to prospective candidates.</li>
+        <li>Designed lesson plans, practice drills, and mock tests to improve students’ problem-solving speed and
+            accuracy.</li>
+        <li>Guided candidates on strategies for tackling quantitative reasoning questions under timed conditions.</li>
+        <li>Monitored progress and provided feedback to help students strengthen weak areas.</li>
+    </ul>
+    <hr style="border: none; height: 3px; background-color: steelblue;">
+    <h2>Skills</h2>
+    <ul>
+        <li>Cash & Vault Management</li>
+        <li>Procurement & Operations Support</li>
+        <li>Transaction Reconciliation & Reporting</li>
+        <li>Customer Service & Complaint Resolution</li>
+        <li>Data Analysis (Excel, Power BI, SQL, Python, R)</li>
+        <li>Compliance & Regulatory Knowledge</li>
+        <li>Strong Communication & Interpersonal Skills</li>
+        <li>Problem-Solving & Attention to Detail</li>
+    </ul>
+    <hr style="border: none; height: 3px; background-color: steelblue;">
+
+    <h2>Certifications & Achievements</h2>
+    <ul>
+        <li>DataCamp Professional Data Analyst (2025)</li>
+        <li>Google Business Intelligence Certificate (2024)</li>
+        <li>Google Advanced Data Analytics Certificate (2024)</li>
+        <li>Recognized for operational efficiency and customer service excellence at Access Bank Plc</li>
+    </ul>
+    <footer>
+        <p
+            style="text-align: center; background-color: steelblue; height: 30px; width: 100%; display: flex; justify-content: center; align-items: center; color: aliceblue; font-weight: bold;">
+            &copy; 2025, Moyinoluwa Olayinka</p>
+    </footer>
+</body>
+
+</html>
